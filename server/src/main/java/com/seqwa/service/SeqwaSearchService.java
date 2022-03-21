@@ -48,7 +48,7 @@ public class SeqwaSearchService {
 		uriVariables.put("type", request.getType() != null ? request.getType() : "");
 		uriVariables.put("fields", request.getFields() != null ? request.getFields() : "title,price,link,image");
 		uriVariables.put("highlightField", request.getHighlightField() != null ? request.getHighlightField() : "title");
-		uriVariables.put("maxResults", request.getMaxResults() != null ? request.getMaxResults() : "25");
+		uriVariables.put("maxResults", request.getMaxResults() != null ? request.getMaxResults() : "200");
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("seqwa-api-key", searchAPIKey);
