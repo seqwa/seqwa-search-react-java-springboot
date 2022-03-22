@@ -9,7 +9,7 @@
 - [HeadlessUI](https://headlessui.dev/)
 - [Seqwa](https://www.seqwa.com/)
 
-## Autocomplete
+## Search
 
 Search function integrates full-text search with semantic ranking to provide better search results based on context or user preferences. Semantic ranking personalizes full-text search results for products based on user browsing or purchase history. It includes support for double-quoted phrases for specificity and AND/OR/NOT operators for filtering.
 
